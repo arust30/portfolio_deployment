@@ -1,0 +1,19 @@
+More transparent textures for back of website: transparenttextures.com
+
+tutorial video: https://www.youtube.com/watch?v=G-Cr00UYokU
+
+
+fonts: https://fonts.google.com/specimen/Montserrat?query=Mont#styles
+
+React icons: https://react-icons.github.io/react-icons/
+
+
+swiper.js for swiping on testimonials: https://swiperjs.com/react
+
+
+for emails in chat box: https://www.emailjs.com/
+
+Sample Sites to pull ideas off of: 
+https://sonusourav.github.io/
+
+https://thefreewebsiteguys.com/examples/

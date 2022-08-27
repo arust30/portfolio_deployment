@@ -1,0 +1,87 @@
+header {
+    height: 100%;
+    padding-top: 7rem;
+    overflow: hidden;
+    background: linear-gradient(var(--color-primary),60%,  transparent);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    
+}
+.descriptor-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.header__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 60%;
+    padding-right: 2rem;
+}
+
+.header__left > h3 {
+    font-size: 3rem;
+}
+
+.header__left > h4 {
+    font-size: 1rem;
+    color: var(--color-bg-variant);
+}
+
+.header__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+h6 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    color: var(--color-light);
+}
+/* =================== CTA ================== */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2em;
+    justify-content: center;
+}
+
+/* =================== IMAGE ================== */
+.me {
+    width: 22rem;
+    height: 30rem;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* =================== MEDIA QUERIES - TABLETS ================== */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 70vh;}
+}
+
+/* =================== MEDIA QUERIES - PHONES ================== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 82vh;
+    }
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}

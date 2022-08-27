@@ -1,0 +1,84 @@
+.container.education__container {
+    display: grid;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+/* NEW STUFF---------------------------------------------- */
+.title-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+.special {
+    color: var(--color-black);
+    padding: 0.5rem;
+}
+h2 {
+    color: var(--color-primary);
+    padding: 0.5rem;
+    align-items: center;
+}
+hr{
+    border: 1px solid var(--color-primary);
+    width: 80%;
+}
+em {
+    font-size: 1.2rem;
+}
+.education__left-of-line {
+    text-align: right;
+    gap: 1rem;
+    width: 20%;
+}
+.education__right-of-line {
+    gap: 1.5rem;
+    width: 70%;
+}
+.education__item {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.education__middle-line{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.lines {
+    height: 300px;
+    border-left: solid 2px var(--color-bg-variant);
+    position: absolute;
+    width: 15px;
+    border-top: solid 2px var(--color-bg-variant);
+    position: absolute;
+}
+
+h3{
+    color: var(--color-bg-variant);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h4 {
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem ;
+}
+h5 {
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: 300;
+}
