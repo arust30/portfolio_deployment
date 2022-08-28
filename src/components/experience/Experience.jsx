@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+
 import ByteSizeLogo from "../../assets/Iso-Logo.png";
 import QSocialLogo from "../../assets/QSocial-Logo.png";
 import WhirlLogo from "../../assets/Whirl-Logo.png";
@@ -48,13 +48,13 @@ const Experience = () => {
                 quae repellendus. Alias, dolor?
               </p>
               <div className="work__item-ctas">
-                <a href="https://github.com" className="btn" target="_blank">
+                <a href="https://github.com" className="btn" target="_blank" rel='noreferrer' >
                   Website
                 </a>
                 <a
                   href="https://github.com"
                   className="btn btn-primary"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   More Details
                 </a>
@@ -89,13 +89,13 @@ const Experience = () => {
                 quae repellendus. Alias, dolor?
               </p>
               <div className="work__item-ctas">
-                <a href="https://github.com" className="btn" target="_blank">
+                <a href="https://github.com" className="btn" target="_blank" rel='noreferrer'>
                   Website
                 </a>
                 <a
                   href="https://github.com"
                   className="btn btn-primary"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   More Details
                 </a>
@@ -130,13 +130,13 @@ const Experience = () => {
                 quae repellendus. Alias, dolor?
               </p>
               <div className="work__item-ctas">
-                <a href="https://github.com" className="btn" target="_blank">
+                <a href="https://github.com" className="btn" target="_blank" rel='noreferrer'>
                   Website
                 </a>
                 <a
                   href="https://github.com"
                   className="btn btn-primary"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   More Details
                 </a>
@@ -171,13 +171,13 @@ const Experience = () => {
                 quae repellendus. Alias, dolor?
               </p>
               <div className="work__item-ctas">
-                <a href="https://github.com" className="btn" target="_blank">
+                <a href="https://github.com" className="btn" target="_blank" rel='noreferrer'>
                   Website
                 </a>
                 <a
                   href="https://github.com"
                   className="btn btn-primary"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   More Details
                 </a>

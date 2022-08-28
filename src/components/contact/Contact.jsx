@@ -31,19 +31,19 @@ const Contact = () => {
             <MdOutlineEmail className="contact__icon" />
             <h4>Email</h4>
             <h5>andrewrust30@gmail.com</h5>
-            <a href="mailto:andrewrust30@gmail.com" target='_blank'>Email Me</a>
+            <a href="mailto:andrewrust30@gmail.com" target='_blank' rel='noreferrer'>Email Me</a>
           </article>
           <article className="contact__option">
             <MdOutlineEmail className="contact__icon" />
             <h4>Email</h4>
             <h5>andrewrust30[at]gmail.com</h5>
-            <a href="mailto:andrewrust30@gmail.com" target='_blank'>Email Me</a>
+            <a href="mailto:andrewrust30@gmail.com" target='_blank' rel='noreferrer'>Email Me</a>
           </article>
           <article className="contact__option">
             <MdOutlineEmail className="contact__icon" />
             <h4>Email</h4>
             <h5>andrewrust30@gmail.com</h5>
-            <a href="mailto:andrewrust30@gmail.com" target='_blank'>Email Me</a>
+            <a href="mailto:andrewrust30@gmail.com" target='_blank' rel='noreferrer'>Email Me</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS*/}
