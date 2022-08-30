@@ -22,10 +22,14 @@ const Contact = () => {
 
   return (
     <section id = 'contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact</h2>
 
       <div className="container contact__container">
+
+      <h2 className="contact__title">
+          Contact Me
+          <hr />
+        </h2>
+
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__icon" />
@@ -33,18 +37,7 @@ const Contact = () => {
             <h5>andrewrust30@gmail.com</h5>
             <a href="mailto:andrewrust30@gmail.com" target='_blank' rel='noreferrer'>Email Me</a>
           </article>
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__icon" />
-            <h4>Email</h4>
-            <h5>andrewrust30[at]gmail.com</h5>
-            <a href="mailto:andrewrust30@gmail.com" target='_blank' rel='noreferrer'>Email Me</a>
-          </article>
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__icon" />
-            <h4>Email</h4>
-            <h5>andrewrust30@gmail.com</h5>
-            <a href="mailto:andrewrust30@gmail.com" target='_blank' rel='noreferrer'>Email Me</a>
-          </article>
+        
         </div>
         {/* END OF CONTACT OPTIONS*/}
         <form ref={form} onSubmit={sendEmail}>

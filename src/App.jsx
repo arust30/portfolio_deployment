@@ -8,7 +8,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Education from './components/education/Education'
-import Awards from './components/awards/Awards'
+import Events from './components/events/Events'
 import Skills from './components/skills/Skills'
 import More from './components/more/More'
 
@@ -21,7 +21,7 @@ const App = () => {
     <Experience />
     <Skills />
     <Testimonials />
-    <Awards />
+    <Events />
     <Contact />
     <More />
     <Footer />

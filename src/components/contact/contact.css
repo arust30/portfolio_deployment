@@ -54,6 +54,14 @@ input, textarea {
     color: var(--color-white);
 }
 
+.contact__title > hr{
+    width: 30%;
+    border: 1.5px solid var(--color-primary);
+    background-color: var(--color-primary);
+}
+
+
+
 /* =================== MEDIA QUERIES - TABLETS ================== */
 @media screen and (max-width: 1024px) {
     .container.contact__container {

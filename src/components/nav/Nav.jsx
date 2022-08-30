@@ -14,12 +14,12 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href ="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} > <AiOutlineHome />  </a>
+      <a href ="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''} > <AiOutlineHome />  </a>
       <a href ="#education" onClick={() => setActiveNav('#education')} className={activeNav === '#education' ? 'active' : ''}> <BiBook /> </a>
       <a href ="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}> <MdWorkOutline /> </a>
       <a href ="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}> <HiOutlineClipboardList /> </a>
       <a href ="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}> <BsFillPersonCheckFill /> </a>
-      <a href ="#awards" onClick={() => setActiveNav('#awards')} className={activeNav === '#awards' ? 'active' : ''}> <FiAward /> </a>
+      <a href ="#events" onClick={() => setActiveNav('#events')} className={activeNav === '#events' ? 'active' : ''}> <FiAward /> </a>
       <a href ="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <MdOutlineMailOutline /> </a>
       <a href ="#more" onClick={() => setActiveNav('#more')} className={activeNav === '#more' ? 'active' : ''}> <FiPlusSquare/> </a>
     </nav>

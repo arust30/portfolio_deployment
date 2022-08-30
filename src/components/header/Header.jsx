@@ -6,6 +6,7 @@ import Resume from '../../assets/Resume.pdf'
 const Header = () => {
   return (
     <header>
+      <section id="header"/>
       <div className="container header__container">
         <div className="header__left">
           <h6>Hello I'm</h6>
@@ -29,6 +30,7 @@ const Header = () => {
         </div>
         </div>
       </header>
+      
   )
 }
 
