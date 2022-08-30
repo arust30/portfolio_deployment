@@ -1,6 +1,6 @@
 header {
     background: linear-gradient(var(--color-primary),60%,  transparent);
-    height: 85vh;
+    height: 95vh;
     padding-top: 4rem;
     overflow: hidden;
 }
@@ -12,6 +12,7 @@ header {
     position: relative;
     
 }
+
 .descriptor-titles {
     display: flex;
     flex-direction: row;
@@ -21,6 +22,7 @@ header {
     gap: 0.8rem;
     padding: 1rem; 
 }
+
 .bottom__section {
     display: flex;
     flex-direction: column;
@@ -31,7 +33,13 @@ header {
     padding: 1rem; 
     font-size: 1.5rem;
     color: var(--color-primary);
-    margin: 1.5rem;
+    margin-top: 3rem;
+    height: 100%;
+}
+
+.learn__more-img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .about__me {
@@ -56,16 +64,7 @@ header {
 }
 
 .about__me-image:hover {
-    transform: rotate(-5deg);
-}
-
-
-.learn__more-img {
-    max-width: 50px;
-    max-height: 50px;
-    width: 100%;
-    height: 100%;
-    align-items: center;
+    transform: rotate(5deg);
 }
 
 .header__left {

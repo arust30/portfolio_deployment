@@ -3,7 +3,7 @@ import React from 'react'
 const More = () => {
   return (
     <section id='more'>
-    <div>More</div>
+    <div></div>
   </section>
   )
 }

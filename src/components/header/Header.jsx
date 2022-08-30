@@ -56,12 +56,17 @@ const Header = () => {
 
           </div>
         </div>
-      </section>
-      <div className="bottom__section">
-        {" "}
-        Learn More About Me!{" "}
-        <img className="learn__more-img" src={Arrow} alt="learn more arrow" />
+        <div className="bottom__section">
+        
+        Learn More About Me!
+        <div className="learn__more-img">
+      <img src={Arrow} alt="learn more arrow" />
       </div>
+      </div>
+      
+      </section>
+      
+     
     </header>
   );
 };

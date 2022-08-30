@@ -2,6 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import Placeholder from "../../assets/placeholder-image.png";
 import JohnAggreyHeadshot from "../../assets/JohnAggrey.png";
+import JohnMeanyHeadshot from "../../assets/JohnMeany.png";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -16,11 +17,11 @@ const data = [
       "As the CEO of Din Din (www.eatdindin.com) I had the pleasure of working with Andrew after his graduation from Wake Forest University. I could tell during the interviewing process that he possessed the right blend of analytical thinking, solutions mapping, and technology design capabilities. Andrew far exceeded my expectations and that of every member of our executive team. With a forensic approach he was able uncover gaps in our service offering, provide solutions, and communicate effectively with our executive team and across functional groups within our organization.",
   },
   {
-    avatar: Placeholder,
-    name: "Name",
-    title: "Title",
+    avatar: JohnMeanyHeadshot,
+    name: "John Meany",
+    title: "CEO & Co-Founder - Q Social Technologies",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus incidunt odio, non placeat numquam quas, id voluptates laborum ipsum quam quaerat! Aliquam aperiam soluta atque quis ullam incidunt unde!",
+      "As the CEO of Q Social Technologies (Q-social.com) I have had the pleasure of knowing and working with Andrew for the past few years. He is an invaluable member of the team as our CTO and has a tremendous work ethic. Andrew has great communication and analytical thinking skills that have been able to take us from the ground up. Andrew has been leading our tech team and is able to turn every idea that we have had into a working web app. He is a great leader and is able to keep all of our software engineers on track and much of the time ahead ofschedule. Outside of tech, he has been a great asset as he provides insight on every call with vendors, investors, and third party tech solution companies.",
   },
   {
     avatar: Placeholder,
