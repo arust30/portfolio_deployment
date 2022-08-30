@@ -15,6 +15,20 @@ const Skills = () => {
               <h2>Skills </h2>
               <h2>& </h2>
               <h2>Software</h2>
+
+              <div className="skill__item-single">
+                <img className="skills-logo" src={OrangeCheck} alt="" />
+                <h5>Basic</h5>
+              </div>
+              <div className="skill__item-single">
+                <img className="skills-logo" src={GreenCheck} alt="" />
+                <h5>Proficient</h5>
+              </div>
+              <div className="skill__item-single">
+                <img className="skills-logo" src={PurpleCheck} alt="" />
+                <h5>Expert</h5>
+              </div>
+
             </div>
           </div>
           <div className="skills__middle-line">
