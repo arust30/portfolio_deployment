@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonials.css";
-import Placeholder from "../../assets/placeholder-image.png";
+/*import Placeholder from "../../assets/placeholder-image.png";*/
 import JohnAggreyHeadshot from "../../assets/JohnAggrey.png";
 import JohnMeanyHeadshot from "../../assets/JohnMeany.png";
 import LizzyRandolphHeadshot from "../../assets/LizzyRandolph.png";
