@@ -88,3 +88,39 @@ li:hover a {
         margin-bottom: 2.6rem;
     }
 }
+
+
+/* =================== MEDIA QUERIES - TABLETS ================== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);}
+    
+}
+
+/* =================== MEDIA QUERIES - PHONES ================== */
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    footer a{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .footer__socials a {
+        font-size: 1rem;
+        padding: 0.5rem;
+        align-items: center;
+        text-align: center;
+    }
+    li {
+        gap: 0;
+        padding: 0;
+        border: solid 1px var(--color-primary);
+    }
+    .footer__copyright small{
+        font-size: 0.8rem;
+    }
+    a > h2 {
+        font-size: 1.2rem;
+    }
+}

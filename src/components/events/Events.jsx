@@ -11,12 +11,18 @@ const Events = () => {
           <hr />
         </h2>
 
+        
+
         <div className="events__items">
+        <h2 className="events__title-mobile">
+          Public Speaking & Events
+          <hr />
+        </h2>
           <article className="events__item">
             <div className="events__left">
               <iframe
-                width="560"
-                height="315"
+                width="100%"
+                height="100%"
                 src="https://www.youtube.com/embed/YfL_3yAyD6s?start=3447"
                 title="YouTube video player"
                 frameborder="0"
@@ -54,8 +60,8 @@ const Events = () => {
                     <article className="events__item">
             <div className="events__left">
               <iframe
-                width="560"
-                height="315"
+                 width="100%"
+                 height="100%"
                 src="https://www.youtube.com/embed/eWJ8lB9IxeY?start=2642"
                 title="YouTube video player"
                 frameborder="0"
@@ -92,8 +98,8 @@ const Events = () => {
           <article className="events__item">
             <div className="events__left">
               <iframe
-                width="560"
-                height="315"
+                 width="100%"
+                 height="100%"
                 src="https://www.youtube.com/embed/MBwIT_pzApw"
                 title="YouTube video player"
                 frameborder="0"

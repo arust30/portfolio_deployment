@@ -32,6 +32,7 @@ const Experience = () => {
                 <h3>ByteSize Learning</h3>
                 <h5>Founder & CEO</h5>
                 <h6>September 2020 - Present</h6>
+          
                 <p>
                   <strong>Skills: </strong> React, Webflow, Photoshop, Premiere
                   Pro, Microsoft Office, Bandlab, Unity, DaVinci Resolve,
@@ -40,6 +41,14 @@ const Experience = () => {
               </div>
             </div>
             <hr className="exp__line" />
+
+            <p className="mobile__skills">
+                  Skills: React, Webflow, Photoshop, Premiere
+                  Pro, Microsoft Office, Bandlab, Unity, DaVinci Resolve,
+                  Python, Java
+                </p>
+
+
             <div className="work__bottom-block">
               <p>
                 I have the privilege of operating my own EdTech startup: ByteSize Learning and have been fortunate to encounter success alongside much failure. Running this company has taught me a lot and will continue to teach me and I challenge myself further with this endeavor.
@@ -76,6 +85,11 @@ const Experience = () => {
               </div>
             </div>
             <hr className="exp__line" />
+
+            <p className="mobile__skills">
+           Skills: React Native, Adobe XD, GIMP, Microsoft Office, Bitbucket, Git, Jira, JavaScript
+                </p>
+
             <div className="work__bottom-block">
               <p>
                 "Let's Whirl" - a 2022 TechStars Atlanta company hired me as their first employee. I have been fortunate to work with a team of talented and passionate individuals who have spearheaded this company's early success. I have mostly worked on frontend projects revolving around their new mobile matchmaking app 
@@ -107,12 +121,17 @@ const Experience = () => {
                 <h5>Acting CTO, Technology Consultant</h5>
                 <h6>June 2022 - Present</h6>
                 <p>
-                  <strong>Skills: </strong> React, Webflow, JavaScript, HTML, CSS, GIMP, Microsoft Office, 
+                <strong>Skills: </strong> React, Webflow, JavaScript, HTML, CSS, GIMP, Microsoft Office, 
     
-                </p>
+    </p>
               </div>
             </div>
             <hr className="exp__line" />
+            <p className="mobile__skills">
+           Skills:  React, Webflow, JavaScript, HTML, CSS, GIMP, Microsoft Office, 
+    
+    </p>
+
             <div className="work__bottom-block">
               <p>
                 As Acting CTO, I oversee the development of new technologies on behalf of the company. Mediating with both internal and external exectutive to lead a AdTech startup through its first rounds of funding via the development of a Proof-Of-Concept.
@@ -149,6 +168,10 @@ const Experience = () => {
               </div>
             </div>
             <hr className="exp__line" />
+            <p className="mobile__skills">
+            Skills: Microsoft Office, Domo
+                </p>
+
             <div className="work__bottom-block">
               <p>
                 As a technology intern for Eat Din Din, i worked alongside the internal excutives and external development team to guide technology strategy for the VC-backed food delivery marketplace. I compelted a variety of projects including basic data analysis, consulting, market research, and more.

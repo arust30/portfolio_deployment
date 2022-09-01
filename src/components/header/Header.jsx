@@ -13,6 +13,12 @@ const Header = () => {
             <h6>Hello I'm</h6>
             <h3>Andrew Rust</h3>
 
+            <div className="about__me-mobile">
+          <div className="about__me-image">
+            <img src={Headshot} alt="About Me" />
+          </div>
+        </div>
+
             <div className="descriptor-titles">
               <h6>
                 <em>Computer Engineer</em>{" "}

@@ -177,13 +177,16 @@
     margin: 1rem;
     width: 90%;
     height: 1px;
-    background-color: var(--color-bg);
+    background-color: var(--color-primary);
     transition: var(--transition);
 }
 
 .exp__trans {
     height: 20vh;
     background: linear-gradient(var(--color-primary), transparent);
+}
+.mobile__skills {
+    display: none;
 }
 
 /* =================== MEDIA QUERIES - TABLETS ================== */
@@ -234,5 +237,73 @@
     .work__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+}
+
+/* =================== MEDIA QUERIES - TABLETS ================== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);}
+    
+}
+
+/* =================== MEDIA QUERIES - PHONES ================== */
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .exp__background{
+        width: 100vw;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+    .exp__head{
+        font-size: 2rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+    .exp__head h2 {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0.3rem;
+    }
+    .work__container{
+        width: 100%;
+    }
+    .work__topblock-text h3{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .work__topblock-text h6{
+        font-size: 0.8rem;
+    }
+    .work__topblock-text p{
+        display: none;
+    }
+    .work__topblock-text  > h5{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .mobile__skills {
+        display: flex;
+        font-size: 0.8rem;
+        margin: 0;
+        padding-bottom: 1rem;
+        color: var(--color-bg-variant);
+    }
+    .work__bottom-block p{
+        font-size: 0.7rem;
+        padding-bottom: 1rem;
     }
 }

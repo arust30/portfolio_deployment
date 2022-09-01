@@ -114,4 +114,27 @@ button {
     .container.contact__container {
         width: var(--container-width-sm);
     }       
+    .calendly__block{
+        display: none;
+    }
+    .contact__title {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .contact__form {
+        font-size: 0.8rem;
+
+        align-items: center;
+        justify-content: center;
+    }
+    .contact__form input, textarea{
+        font-size: 0.8rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .other__contact-options a {
+        align-items: center;
+        justify-content: center;
+
+    }
 }

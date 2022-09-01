@@ -28,13 +28,35 @@ const Skills = () => {
                 <img className="skills-logo" src={PurpleCheck} alt="" />
                 <h5>Expert</h5>
               </div>
-
             </div>
           </div>
           <div className="skills__middle-line">
             <div className="skill__line" />
           </div>
           <div className="skills__right-of-line">
+            <div className="skills__header-mobile">
+           <div className="mobile__head-title">
+           <h3>Skills & Software</h3>
+           </div>
+                
+             
+
+              <div className="icons__mobile">
+                <div className="skill__item-single">
+                  <img className="skills-logo" src={OrangeCheck} alt="" />
+                  <h5>Basic</h5>
+                </div>
+                <div className="skill__item-single">
+                  <img className="skills-logo" src={GreenCheck} alt="" />
+                  <h5>Proficient</h5>
+                </div>
+                <div className="skill__item-single">
+                  <img className="skills-logo" src={PurpleCheck} alt="" />
+                  <h5>Expert</h5>
+                </div>
+              </div>
+            </div>
+
             <div className="skill__grid-item">
               <h3>Video Editing</h3>
 
@@ -393,7 +415,6 @@ const Skills = () => {
           </div>
         </article>
       </div>
-      
     </section>
   );
 };

@@ -89,4 +89,20 @@
     .client__review {
         width: var(--container-width-sm)
     }
+    .client__name{
+        font-size: 1.2rem;
+    }
+    .client__title {
+        font-size: 0.9rem;
+    }
+    .client__review {
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+    .testimonials__container-one > h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+     }
 }

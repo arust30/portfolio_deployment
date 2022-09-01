@@ -60,7 +60,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Email Me Directly Instead
+              Email Me Directly Instead!
               <MdOutlineEmail className="contact__icon" />
             </a>
 

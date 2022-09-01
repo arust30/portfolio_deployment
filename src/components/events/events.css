@@ -51,3 +51,66 @@ h2 {
     margin-top: 1rem;
     gap: 1.5rem;
 }
+.events__title-mobile {
+    width: var(--container-width-sm);
+    display: none;
+}
+
+/* =================== MEDIA QUERIES - TABLETS ================== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);}
+    
+}
+
+/* =================== MEDIA QUERIES - PHONES ================== */
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .events__title{
+        display: none;
+    }
+    .events__container {
+        width: var(--container-width-sm);
+    }
+    .events__title-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        color: var(--color-primary);
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        font-size: 1.5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    hr {
+        padding: 0;
+        border: 1.5px solid var(--color-primary);
+        background-color: var(--color-primary);
+    }
+    .events__item {
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        align-items: left;
+        gap: 1.5rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .events__left {
+        width: 100%;
+    
+    }
+    .events__right {
+        width: 100%;
+    
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}

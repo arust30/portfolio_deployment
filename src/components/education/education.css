@@ -55,6 +55,9 @@ em {
 }
 
 
+hr{
+    background-color: var(--color-primary);
+}
 .education__item {
     display: flex;
     flex-direction: row;
@@ -97,3 +100,86 @@ h5 {
     font-size: 1rem;
     font-weight: 300;
 }
+.education__mobile-title {
+    display: none;
+}
+
+/* =================== MEDIA QUERIES - TABLETS ================== */
+@media screen and (max-width: 1024px) {
+    .education__container {
+        width: 70vh;}
+    
+}
+
+/* =================== MEDIA QUERIES - PHONES ================== */
+@media screen and (max-width: 600px) {
+    .container.education__container {
+        width: var(--container-width-sm);
+    }
+    .title-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    .education__item {
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        gap: 0;
+        padding: 0;
+        margin-bottom: 2rem;;
+    }
+    .education__left-of-line {
+        display: none;
+    }
+    .lines {
+        display: none;
+    }
+    h4 {
+        color: var(--color-primary);
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+        text-align: center;
+    }
+    h5 {
+        font-size: 0.9rem;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .education__mobile-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .education__right-of-line {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .education__right-of-line > p {
+        font-size: 0.7rem;
+        margin-top: 1.2rem;
+    }
+    em {
+        font-size: 0.8rem;
+    };
+}
+
+
+
