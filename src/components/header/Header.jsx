@@ -1,8 +1,9 @@
 import React from "react";
 import "./header.css";
 import Headshot from "../../assets/headshot.png";
-import Resume from "../../assets/Resume.pdf";
+//import Resume from "../../assets/Resume.pdf";
 import Arrow from "../../assets/arrow.png";
+import NewResume from "../../assets/RustAndrew_ProfessionalResume_Sept2022.pdf";
 
 const Header = () => {
   return (
@@ -41,7 +42,7 @@ const Header = () => {
             </h4>
 
             <div className="cta">
-              <a href={Resume} download className="btn">
+              <a href={NewResume} download className="btn">
                 Download Resume
               </a>
               <a href="#contact" className="btn btn-primary">
