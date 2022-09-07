@@ -4,6 +4,7 @@ import "./testimonials.css";
 import JohnAggreyHeadshot from "../../assets/JohnAggrey.png";
 import JohnMeanyHeadshot from "../../assets/JohnMeany.png";
 import LizzyRandolphHeadshot from "../../assets/LizzyRandolph.png";
+import TedMiddletonHeadshot from "../../assets/TedMiddleton.png";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -31,15 +32,14 @@ const data = [
     review:
       "We had a wonderful experience partnering with Andrew at ByteSize Learning. Andrew provided engaging and high-quality instruction for our middle school students. They had a great time using the game of Minecraft to learn more about engineering concepts. Andrew is not only a great teacher, but also a great role model for students. Would definitely recommend ByteSize Learning as a resource for students that want to explore their curiosity for STEM.",
   },
-/*}
-
   {
-    avatar: Placeholder,
-    name: "Name",
-    title: "Title",
+    avatar: TedMiddletonHeadshot,
+    name: "Ted Middleton",
+    title: "CEO & Co-Founder of Whirl ",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus incidunt odio, non placeat numquam quas, id voluptates laborum ipsum quam quaerat! Aliquam aperiam soluta atque quis ullam incidunt unde!",
+      "Andrew is a versatile problem solver. He joined the Whirl team in June 2022 for a part-time Front End developer position. That said, he worked on much more than just our front end. Andrew actually ended up taking the lead redoing our wireframe and organizing our navigation. Early on in his employment, Andrew took the time to look around for issues with our product/organization and made it his own mission to improve on them. He has been a stellar addition to our team that has been able to fill in the gaps when we need it. I continue to be impressed with Andrew’s organization, work ethic, and problem solving abilities. I highly reccomend Andrew to any team looking for someone that can efficiently solve a multitude of technical and organizational challenges. I wish him the best!",
   },
+  /*
   {
     avatar: Placeholder,
     name: "Name",
