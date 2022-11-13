@@ -5,7 +5,7 @@ import Headshot from "../../assets/headshot.png";
 import Arrow from "../../assets/arrow.png";
 import NewResume from "../../assets/RustAndrew_ProfessionalResume_Sept2022.pdf";
 import NewerResume from "../../assets/RustAndrew_ProfessionalResume_Nov2022.pdf";
-import newHeadshot from "../../assets/RustAndrew_ProfessionalHeadshot.jpg";
+import newHeadshot from "../../assets/RustAndrew_ProfessionalHeadshot.png";
 
 const Header = () => {
   return (
