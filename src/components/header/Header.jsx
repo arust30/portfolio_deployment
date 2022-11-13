@@ -1,9 +1,9 @@
 import React from "react";
 import "./header.css";
-import Headshot from "../../assets/headshot.png";
+//import Headshot from "../../assets/headshot.png";
 //import Resume from "../../assets/Resume.pdf";
 import Arrow from "../../assets/arrow.png";
-import NewResume from "../../assets/RustAndrew_ProfessionalResume_Sept2022.pdf";
+//import NewResume from "../../assets/RustAndrew_ProfessionalResume_Sept2022.pdf";
 import NewerResume from "../../assets/RustAndrew_ProfessionalResume_Nov2022.pdf";
 import newHeadshot from "../../assets/RustAndrew_ProfessionalHeadshot.png";
 
