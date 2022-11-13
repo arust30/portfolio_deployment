@@ -4,6 +4,8 @@ import Headshot from "../../assets/headshot.png";
 //import Resume from "../../assets/Resume.pdf";
 import Arrow from "../../assets/arrow.png";
 import NewResume from "../../assets/RustAndrew_ProfessionalResume_Sept2022.pdf";
+import NewerResume from "../../assets/RustAndrew_ProfessionalResume_Nov2022.pdf";
+import newHeadshot from "../../assets/RustAndrew_ProfessionalHeadshot.jpg";
 
 const Header = () => {
   return (
@@ -42,7 +44,7 @@ const Header = () => {
             </h4>
 
             <div className="cta">
-              <a href={NewResume} download className="btn">
+              <a href={NewerResume} download className="btn">
                 Download Resume
               </a>
               <a href="#contact" className="btn btn-primary">
@@ -54,7 +56,7 @@ const Header = () => {
 
           <div className="about__me">
           <div className="about__me-image">
-            <img src={Headshot} alt="About Me" />
+            <img src={newHeadshot} alt="About Me" />
           </div>
         </div>
 
