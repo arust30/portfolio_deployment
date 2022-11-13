@@ -4,8 +4,4 @@ import App from './App';
 import './index.css';
 import Favicon from '../src/assets/ruskybuckets.gif';
 
-ReactDOM.render(
-    <div>
-        <Favicon url = '../src/assets/ruskybuckets.gif'/>
-        <App/>
-    </div>, document.querySelector('#root'));
+ReactDOM.render(<App/>, document.querySelector('#root'));
