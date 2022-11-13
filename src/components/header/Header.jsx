@@ -18,7 +18,7 @@ const Header = () => {
 
             <div className="about__me-mobile">
           <div className="about__me-image">
-            <img src={Headshot} alt="About Me" />
+            <img src={newHeadshot} alt="About Me" />
           </div>
         </div>
 
