@@ -88,7 +88,7 @@ const Education = () => {
                         <h5>2025 - 2027</h5>
                         <h4>Houston, TX</h4>
                     </div>
-                        <p>As a tech entrepreneur, I understand the importance of business knowledge and experience in the successful operation of any modern business, so I chose to apply to the Deferred M.B.A Enrollment at the Jones School of Business at Rice University and was admitted into the 2022 class of deferred enrollees. I am looking forward to the eventual prospect of continuing my development journry through higher education. </p>
+                        <p>As a tech entrepreneur, I understand the importance of business knowledge and experience in the successful operation of any modern business, so I chose to apply to the Deferred M.B.A Enrollment at the Jones School of Business at Rice University and was admitted into the 2022 class of deferred enrollees. I am looking forward to the eventual prospect of continuing my development journey through higher education. </p>
                         <h6> Awards: Merit Scholarship</h6>
                     </div>
                 </article>
